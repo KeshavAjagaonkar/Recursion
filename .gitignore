@@ -1,0 +1,8 @@
+# Ignore all .exe files (executables)
+*.exe
+
+# Ignore all .output files
+*.output
+
+# Ignore task.json file (wherever it appears)
+task.json
