@@ -19,13 +19,17 @@ void printReverse(int i,int N){
     cout << i << " ";
 }
 
+ 
 int main(){
     int n;
 
     cin >> n;
-    cout << "Printing numbers from 1 to N in increasing order : "<<endl;
+    // cout << "Printing numbers from 1 to N in increasing order : "<<endl;
     printTillN(1,n);
     cout << endl;
-    cout <<"Printing in reverse order :"<<endl;
-    printReverse(1, n);
+    // print(n);
+    // cout << endl;
+    // cout << endl;
+    // cout <<"Printing in reverse order :"<<endl;
+    // printReverse(1, n);
 }
