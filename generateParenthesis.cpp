@@ -23,7 +23,7 @@ void generate(string &s, int open, int close ){
     }
 }
 int main(){
-    int n =3;
+    int n =2;
     string s;
     generate(s, n, n);
     for(auto val:valid){
